@@ -12,6 +12,38 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('scroll', onScroll, { passive: true });
 
 
+  /* === MENU HAMBURGUER === */
+  const hamburger = document.querySelector('.navbar__hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  if (hamburger && mobileMenu) {
+    hamburger.addEventListener('click', () => {
+      const isOpen = hamburger.getAttribute('aria-expanded') === 'true';
+      hamburger.setAttribute('aria-expanded', String(!isOpen));
+      mobileMenu.setAttribute('aria-hidden', String(isOpen));
+      mobileMenu.classList.toggle('is-open', !isOpen);
+    });
+
+    // Fechar ao clicar em um link do menu mobile
+    mobileMenu.querySelectorAll('.navbar__mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.setAttribute('aria-expanded', 'false');
+        mobileMenu.setAttribute('aria-hidden', 'true');
+        mobileMenu.classList.remove('is-open');
+      });
+    });
+
+    // Fechar ao clicar fora do menu
+    document.addEventListener('click', (e) => {
+      if (!navbar.contains(e.target)) {
+        hamburger.setAttribute('aria-expanded', 'false');
+        mobileMenu.setAttribute('aria-hidden', 'true');
+        mobileMenu.classList.remove('is-open');
+      }
+    });
+  }
+
+
   /* === ANIMAÇÕES DE ENTRADA (fade-up) === */
   const fadeEls = document.querySelectorAll('.fade-up');
   if (fadeEls.length) {

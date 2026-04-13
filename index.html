@@ -42,10 +42,35 @@
         <img src="assets/logo/logo-claro.png" alt="Única Estética" class="navbar__logo-img">
       </a>
 
-      <a href="#contato" class="btn btn--primary navbar__cta">
-        <i data-lucide="calendar" aria-hidden="true"></i>
-        Agendar Avaliação Gratuita
-      </a>
+      <!-- Menu desktop -->
+      <nav class="navbar__nav" aria-label="Menu principal">
+        <a href="#servicos" class="navbar__link">Tratamentos</a>
+        <a href="#resultados" class="navbar__link">Resultados</a>
+        <a href="#depoimentos" class="navbar__link">Depoimentos</a>
+        <a href="#sobre" class="navbar__link">Sobre</a>
+        <a href="#faq" class="navbar__link">FAQ</a>
+        <a href="#contato" class="navbar__link navbar__link--cta">Agendar</a>
+      </nav>
+
+      <!-- Botão hamburguer (mobile) -->
+      <button class="navbar__hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Menu mobile -->
+      <div class="navbar__mobile" id="mobile-menu" aria-hidden="true">
+        <nav aria-label="Menu mobile">
+          <a href="#servicos" class="navbar__mobile-link">Tratamentos</a>
+          <a href="#resultados" class="navbar__mobile-link">Resultados</a>
+          <a href="#depoimentos" class="navbar__mobile-link">Depoimentos</a>
+          <a href="#sobre" class="navbar__mobile-link">Sobre</a>
+          <a href="#faq" class="navbar__mobile-link">FAQ</a>
+          <a href="#contato" class="navbar__mobile-link navbar__mobile-link--cta">Agendar avaliação</a>
+        </nav>
+      </div>
+
     </div>
   </header>
 
