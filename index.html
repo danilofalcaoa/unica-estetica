@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Única Estética — 7 anos realizando a beleza que existe em você. Tratamentos de estrias, melasma, clareamento, micropigmentação e muito mais em Aracaju/SE. Avaliação gratuita.">
+  <title>Única Estética | Tratamentos com Resultado Real em Aracaju</title>
+
+  <!-- Preconnect para Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <!-- ASSET-LOGO: favicon
+       Local: aba do navegador
+       Dimensão: 32x32px e 180x180px (apple-touch-icon)
+       Formato: PNG com fundo transparente
+       Arquivo: assets/logo/favicon.png -->
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png">
+  <link rel="apple-touch-icon" href="assets/logo/favicon.png">
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+
+      <!-- ASSET-LOGO: logo-navbar
+           Local: canto esquerdo da navbar
+           Dimensão: altura 40px (desktop) / 32px (mobile)
+           Formato: SVG ou PNG com fundo transparente
+           Versão: para fundo claro (texto escuro, dourado)
+           Arquivo: assets/logo/logo-claro.svg -->
+      <a href="#hero" class="navbar__logo">
+        <img src="assets/logo/logo-claro.png" alt="Única Estética" class="navbar__logo-img">
+      </a>
+
+      <a href="#contato" class="btn btn--primary navbar__cta">
+        <i data-lucide="calendar" aria-hidden="true"></i>
+        Agendar Avaliação Gratuita
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+
+      <!-- ASSET-IMAGEM: hero-background
+           Local: fundo full-width da seção hero
+           Dimensão: 1440x860px (desktop) / 768x700px (tablet) / 375x600px (mobile)
+           Proporção: 16:9 desktop / 3:4 mobile
+           Contexto: Ambiente da clínica ou profissional realizando procedimento com iluminação quente, tons dourados. Pode ser também close de pele tratada com resultado visível.
+           Formato: JPG ou WebP — máximo 300KB
+           Arquivo: assets/images/hero-bg.jpg -->
+      <div class="hero__bg"></div>
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <div class="hero__badge fade-up">
+          <i data-lucide="award" aria-hidden="true"></i>
+          7 anos realizando a beleza que existe em você
+        </div>
+
+        <h1 class="hero__headline fade-up">
+          Chega de esconder<br>o corpo.
+        </h1>
+
+        <p class="hero__subheadline fade-up">
+          Manchas, estrias, áreas escurecidas e flacidez têm solução. Na Única Estética, cada protocolo é pensado para o seu caso — e o resultado aparece já nas primeiras sessões.
+        </p>
+
+        <div class="hero__actions fade-up">
+          <a href="https://wa.me/5579981337766?text=Ol%C3%A1%21+Vim+pelo+site+e+gostaria+de+agendar+minha+avalia%C3%A7%C3%A3o+gratuita."
+             class="btn btn--gold btn--lg"
+             target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Quero minha avaliação gratuita
+          </a>
+          <a href="#servicos" class="btn btn--outline-light">
+            Ver tratamentos
+          </a>
+        </div>
+
+        <div class="hero__trust fade-up">
+          <div class="trust-item">
+            <i data-lucide="check-circle" aria-hidden="true"></i>
+            Avaliação 100% gratuita
+          </div>
+          <div class="trust-item">
+            <i data-lucide="map-pin" aria-hidden="true"></i>
+            São José · Aracaju/SE
+          </div>
+          <div class="trust-item">
+            <i data-lucide="calendar" aria-hidden="true"></i>
+            Segunda a Sábado
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROPOSTA CENTRAL ===================== -->
+    <section class="benefits" id="beneficios">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Aqui não existe protocolo padrão para todo mundo</h2>
+          <p class="section-subtitle">
+            Você chega, conta o que te incomoda, a gente avalia e monta o tratamento certo para o seu caso. Sem enrolação, sem milagre prometido — só resultado que você consegue ver e fotografar.
+          </p>
+        </div>
+
+        <div class="benefits__grid">
+
+          <div class="benefit-card fade-up">
+            <!-- ASSET-ICONE: icone-resultado-sessao
+                 Estilo: outline fino, cor dourada #C4935A, 40x40px
+                 Arquivo: assets/icons/resultado.svg -->
+            <div class="benefit-card__icon">
+              <i data-lucide="sparkles" aria-hidden="true"></i>
+            </div>
+            <div class="benefit-card__body">
+              <h3>Resultado visível nas primeiras sessões</h3>
+              <p>Você já sai da clínica sentindo a diferença — sem esperar meses para ver algo acontecer.</p>
+            </div>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <i data-lucide="clipboard-list" aria-hidden="true"></i>
+            </div>
+            <div class="benefit-card__body">
+              <h3>Protocolo personalizado para o seu caso</h3>
+              <p>Não um tratamento genérico que serve para qualquer pessoa — um plano montado para o que você especificamente precisa.</p>
+            </div>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <i data-lucide="shield-check" aria-hidden="true"></i>
+            </div>
+            <div class="benefit-card__body">
+              <h3>Profissionais com anos de prática real</h3>
+              <p>Atendimento realizado por esteticistas treinadas com anos de experiência em Aracaju — não por quem está aprendendo no seu caso.</p>
+            </div>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <i data-lucide="zap" aria-hidden="true"></i>
+            </div>
+            <div class="benefit-card__body">
+              <h3>Tecnologia atualizada que entrega resultado</h3>
+              <p>Equipamentos certificados — incluindo Criolipólise recém-adquirida — para que o seu tratamento tenha o que há de mais eficaz.</p>
+            </div>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <i data-lucide="heart" aria-hidden="true"></i>
+            </div>
+            <div class="benefit-card__body">
+              <h3>Atendimento que cuida de verdade</h3>
+              <p>Você não é mais um número na agenda. Nossa equipe conhece seu histórico e acompanha sua evolução sessão a sessão.</p>
+            </div>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <i data-lucide="search" aria-hidden="true"></i>
+            </div>
+            <div class="benefit-card__body">
+              <h3>Avaliação gratuita antes de qualquer decisão</h3>
+              <p>Você sabe exatamente o que vai ser feito e quanto vai custar — antes de pagar qualquer coisa.</p>
+            </div>
+          </div>
+
+          <div class="benefit-card fade-up">
+            <div class="benefit-card__icon">
+              <i data-lucide="camera" aria-hidden="true"></i>
+            </div>
+            <div class="benefit-card__body">
+              <h3>7 anos de resultados documentados</h3>
+              <p>Antes e depois reais de clientes reais — publicados no nosso Instagram com mais de 52 mil seguidores.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVIÇOS ===================== -->
+    <section class="services" id="servicos">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Tratamentos disponíveis</h2>
+          <p class="section-subtitle">Procedimentos corporais e faciais para cada necessidade — com resultado documentado e protocolo personalizado.</p>
+        </div>
+
+        <div class="services__grid">
+
+          <div class="service-card fade-up">
+            <!-- ASSET-ICONE: icone-servico-melasma
+                 Estilo: outline fino dourado, 48x48px
+                 Arquivo: assets/icons/melasma.svg -->
+            <div class="service-card__icon">
+              <i data-lucide="sun" aria-hidden="true"></i>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__name">Melasma Control</h3>
+              <p class="service-card__desc">Tratamento específico para manchas de melasma com resultado visível em 12 a 15 dias. Um dos protocolos mais procurados da clínica.</p>
+              <span class="service-card__badge">Resultado em 12–15 dias</span>
+            </div>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <i data-lucide="activity" aria-hidden="true"></i>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__name">Tratamento de Estrias</h3>
+              <p class="service-card__desc">Redução visível com indução de colágeno e elastina — o tecido se reorganiza de dentro para fora. Melhora documentada desde a 1ª sessão.</p>
+              <span class="service-card__badge">Melhora desde a 1ª sessão</span>
+            </div>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <i data-lucide="droplets" aria-hidden="true"></i>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__name">Clareamento a Laser</h3>
+              <p class="service-card__desc">Laser com peeling de carbono para clarear axila, virilha e entrepernas de forma segura. Pele mais clara, uniforme e sem necessidade de esconder.</p>
+              <span class="service-card__badge promo">Promoção: R$130/sessão</span>
+            </div>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <i data-lucide="smile" aria-hidden="true"></i>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__name">Micropigmentação Labial</h3>
+              <p class="service-card__desc">Para lábios apagados, assimétricos ou escurecidos. Resultado natural que realça o contorno sem exagero — dura anos e dispensa maquiagem diária.</p>
+              <span class="service-card__badge">Resultado duradouro</span>
+            </div>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <i data-lucide="snowflake" aria-hidden="true"></i>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__name">Criolipólise</h3>
+              <p class="service-card__desc">Tecnologia de congelamento de gordura localizada — sem cirurgia, sem recuperação. Elimina células de gordura em regiões que não respondem ao exercício.</p>
+              <span class="service-card__badge novo">Novo na clínica</span>
+            </div>
+          </div>
+
+          <div class="service-card fade-up">
+            <div class="service-card__icon">
+              <i data-lucide="hand" aria-hidden="true"></i>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__name">Massagem Modeladora</h3>
+              <p class="service-card__desc">Técnica profunda que reduz medidas, combate celulite e elimina retenção de líquido. Potencializa os resultados corporais quando combinada com outros protocolos.</p>
+              <span class="service-card__badge">Redução de medidas</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="services__more fade-up">
+          <p class="services__more-label">Outros tratamentos disponíveis:</p>
+          <div class="services__tags">
+            <span>Camuflagem de estrias</span>
+            <span>Camuflagem de cicatrizes</span>
+            <span>Camuflagem de olheiras</span>
+            <span>Reconstrução de aréola</span>
+            <span>Neutralização labial</span>
+            <span>Remoção de vasinhos</span>
+            <span>Depilação a laser</span>
+            <span>Extensão de cílios</span>
+            <span>Spa dos pés</span>
+            <span>Reflexologia</span>
+          </div>
+          <a href="https://wa.me/5579981337766?text=Ol%C3%A1%21+Vim+pelo+site+e+gostaria+de+saber+mais+sobre+os+tratamentos."
+             class="btn btn--primary" target="_blank" rel="noopener">
+            Qual tratamento é certo para mim?
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== COMO FUNCIONA ===================== -->
+    <section class="how-it-works" id="como-funciona">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Como é o processo</h2>
+          <p class="section-subtitle">Simples, sem pressão e no seu tempo.</p>
+        </div>
+
+        <div class="steps">
+
+          <div class="step fade-up">
+            <div class="step__number">01</div>
+            <div class="step__content">
+              <h3 class="step__title">Você nos chama no WhatsApp</h3>
+              <p class="step__desc">Manda uma mensagem, nos conta o que te incomoda. Pode mandar foto se quiser — já conseguimos ter uma ideia inicial e te orientar antes mesmo da avaliação.</p>
+            </div>
+          </div>
+
+          <div class="step__connector" aria-hidden="true"></div>
+
+          <div class="step fade-up">
+            <div class="step__number">02</div>
+            <div class="step__content">
+              <h3 class="step__title">Agendamos sua avaliação gratuita</h3>
+              <p class="step__desc">Escolhemos juntos o melhor horário para você — de segunda a sábado. Sem taxa de avaliação, sem compromisso de compra.</p>
+            </div>
+          </div>
+
+          <div class="step__connector" aria-hidden="true"></div>
+
+          <div class="step fade-up">
+            <div class="step__number">03</div>
+            <div class="step__content">
+              <h3 class="step__title">Avaliamos e montamos seu protocolo</h3>
+              <p class="step__desc">Na clínica, analisamos seu caso com atenção e apresentamos o tratamento indicado com previsão de resultado e número de sessões. Sem pressão.</p>
+            </div>
+          </div>
+
+          <div class="step__connector" aria-hidden="true"></div>
+
+          <div class="step fade-up">
+            <div class="step__number">04</div>
+            <div class="step__content">
+              <h3 class="step__title">Você decide — a gente cuida</h3>
+              <p class="step__desc">Se fizer sentido para você, agendamos o início do tratamento. Se precisar de tempo para decidir, tudo bem também. Aqui não tem pressão.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROVA SOCIAL ===================== -->
+    <section class="social-proof" id="depoimentos">
+      <div class="container">
+
+        <div class="stats fade-up">
+          <div class="stat">
+            <span class="stat__number" data-count="7">0</span>
+            <span class="stat__suffix">anos</span>
+            <span class="stat__label">em Aracaju</span>
+          </div>
+          <div class="stat__divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat__number" data-count="52">0</span>
+            <span class="stat__suffix">mil</span>
+            <span class="stat__label">seguidores no Instagram</span>
+          </div>
+          <div class="stat__divider" aria-hidden="true"></div>
+          <div class="stat">
+            <span class="stat__number">100%</span>
+            <span class="stat__label">avaliação gratuita</span>
+          </div>
+        </div>
+
+        <div class="section-header fade-up" style="text-align:center; margin-top: 64px;">
+          <h2 class="section-title" style="color: var(--color-text-on-dark);">O que dizem nossas clientes</h2>
+        </div>
+
+        <div class="testimonials fade-up">
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__avatar" aria-hidden="true">G</div>
+            <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <blockquote class="testimonial-card__text">
+              "Adorei o atendimento! Gostei muito dos procedimentos não invasivos, que realmente ajudam a rejuvenescer de forma natural. As meninas são excelentes, super atenciosas e profissionais. Além disso, os preços são bem acessíveis. Recomendo demais!"
+            </blockquote>
+            <cite class="testimonial-card__author">
+              <strong>Gleice Cavalcante</strong> — Google Reviews
+            </cite>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__avatar" aria-hidden="true">J</div>
+            <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <blockquote class="testimonial-card__text">
+              "O atendimento da clínica é maravilhoso, fui muito bem recebida. Equipe atenciosa e profissional, fiquei muito satisfeita com o cuidado durante o meu procedimento. Recomendo!"
+            </blockquote>
+            <cite class="testimonial-card__author">
+              <strong>Jailda Aquino dos Santos</strong> — Google Reviews
+            </cite>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-card__avatar" aria-hidden="true">I</div>
+            <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <blockquote class="testimonial-card__text">
+              "Conheci a clínica por indicação da minha filha, fui visitar o Instagram e fiquei encantada com os resultados. De imediato entrei em contato, iniciei meu tratamento e estou muito satisfeita com os resultados em tão pouco tempo. Pretendo continuar e fazer outros procedimentos."
+            </blockquote>
+            <cite class="testimonial-card__author">
+              <strong>Iranilde Souza</strong> — Google Reviews
+            </cite>
+          </div>
+
+        </div>
+
+        <div class="social-proof__cta fade-up">
+          <a href="https://wa.me/5579981337766?text=Ol%C3%A1%21+Vim+pelo+site+e+gostaria+de+agendar+minha+avalia%C3%A7%C3%A3o+gratuita."
+             class="btn btn--gold btn--lg" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Quero fazer parte dessas transformações
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== RESULTADOS / ANTES & DEPOIS ===================== -->
+    <section class="results" id="resultados">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Resultados que você pode ver</h2>
+          <p class="section-subtitle">Fotos reais de clientes reais — sem filtro, sem edição. O resultado fala por si.</p>
+        </div>
+
+        <div class="results__grid">
+
+          <div class="result-card fade-up">
+            <div class="result-card__images">
+              <div class="result-card__before">
+                <img src="assets/images/resultado-labios-antes.jpg"
+                     alt="Lábios antes da micropigmentação labial — escurecidos e apagados"
+                     loading="lazy">
+                <span class="result-card__label">Antes</span>
+              </div>
+              <div class="result-card__after">
+                <img src="assets/images/resultado-labios-depois.jpg"
+                     alt="Lábios depois da micropigmentação labial — contorno definido e cor vibrante"
+                     loading="lazy">
+                <span class="result-card__label">Depois</span>
+              </div>
+            </div>
+            <div class="result-card__info">
+              <h3>Micropigmentação Labial</h3>
+              <p>Neutralização + micropigmentação · resultado duradouro</p>
+            </div>
+          </div>
+
+          <div class="result-card fade-up">
+            <div class="result-card__images">
+              <div class="result-card__before">
+                <img src="assets/images/resultado-estrias-antes.jpg"
+                     alt="Abdômen antes do tratamento de estrias — estrias visíveis"
+                     loading="lazy">
+                <span class="result-card__label">Antes</span>
+              </div>
+              <div class="result-card__after">
+                <img src="assets/images/resultado-estrias-depois.jpg"
+                     alt="Abdômen depois do tratamento de estrias — redução visível em 1 sessão"
+                     loading="lazy">
+                <span class="result-card__label">Depois</span>
+              </div>
+            </div>
+            <div class="result-card__info">
+              <h3>Tratamento de Estrias</h3>
+              <p>Resultado após 1 sessão · indução de colágeno</p>
+            </div>
+          </div>
+
+          <div class="result-card fade-up">
+            <div class="result-card__images">
+              <div class="result-card__before">
+                <img src="assets/images/resultado-clareamento-antes.jpg"
+                     alt="Virilha antes do clareamento a laser — área escurecida"
+                     loading="lazy">
+                <span class="result-card__label">Antes</span>
+              </div>
+              <div class="result-card__after">
+                <img src="assets/images/resultado-clareamento-depois.jpg"
+                     alt="Virilha depois do clareamento a laser — pele clara e uniforme em 1 sessão"
+                     loading="lazy">
+                <span class="result-card__label">Depois</span>
+              </div>
+            </div>
+            <div class="result-card__info">
+              <h3>Clareamento a Laser</h3>
+              <p>Resultado após 1 sessão · virilha</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="results__instagram fade-up">
+          <i data-lucide="instagram" aria-hidden="true"></i>
+          <p>Veja mais resultados reais no nosso Instagram</p>
+          <a href="https://instagram.com/unicacentroestetico" target="_blank" rel="noopener" class="btn btn--outline-dark btn--sm">
+            @unicacentroestetico
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================== DIFERENCIAIS ===================== -->
+    <section class="differentials" id="diferenciais">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Por que a Única Estética</h2>
+          <p class="section-subtitle">Há muitas clínicas em Aracaju. Aqui está o que faz a diferença na prática.</p>
+        </div>
+
+        <div class="differentials__grid">
+
+          <div class="differential-card fade-up">
+            <div class="differential-card__icon">
+              <i data-lucide="clock" aria-hidden="true"></i>
+            </div>
+            <h3>7 anos cuidando de mulheres em Aracaju</h3>
+            <p>Não é clínica nova testando protocolo no seu problema. São 7 anos de casos reais, ajustes de técnica e resultados documentados. Você chega em um lugar onde já sabem o que funciona.</p>
+          </div>
+
+          <div class="differential-card fade-up">
+            <div class="differential-card__icon">
+              <i data-lucide="camera" aria-hidden="true"></i>
+            </div>
+            <h3>Resultado que você vê — e consegue fotografar</h3>
+            <p>O Melasma Control mostra resultado em 12 a 15 dias. O clareamento a laser já na primeira sessão. Não prometemos transformação em meses se você pode ver a diferença em dias.</p>
+          </div>
+
+          <div class="differential-card fade-up">
+            <div class="differential-card__icon">
+              <i data-lucide="cpu" aria-hidden="true"></i>
+            </div>
+            <h3>Tecnologia atualizada — incluindo Criolipólise</h3>
+            <p>A clínica investe continuamente em equipamentos. Com a chegada da Criolipólise, você tem acesso em Aracaju à tecnologia de ponta para gordura localizada, com profissional que conhece seu histórico.</p>
+          </div>
+
+          <div class="differential-card fade-up">
+            <div class="differential-card__icon">
+              <i data-lucide="users" aria-hidden="true"></i>
+            </div>
+            <h3>Equipe estável — você não começa do zero toda vez</h3>
+            <p>As profissionais da Única Estética têm anos de clínica juntas. Não é rotatividade de esteticista a cada visita. Quem acompanha seu tratamento conhece seu caso e sabe exatamente onde chegamos.</p>
+          </div>
+
+          <div class="differential-card fade-up">
+            <div class="differential-card__icon">
+              <i data-lucide="graduation-cap" aria-hidden="true"></i>
+            </div>
+            <h3>A clínica que ensina outras profissionais</h3>
+            <p>A Única Estética ministra cursos para esteticistas de outros estados. Isso significa que o nível técnico da equipe é referência — você não é atendida por quem está aprendendo, mas por quem já ensina.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE A FUNDADORA ===================== -->
+    <section class="about" id="sobre">
+      <div class="container">
+        <div class="about__inner fade-up">
+
+          <!-- ASSET-IMAGEM: foto-fundadora
+               Local: coluna esquerda da seção sobre
+               Dimensão: 480x560px (desktop) / 100% (mobile)
+               Proporção: 4:5
+               Contexto: foto profissional de Jéssica Cavalcante — ambiente da clínica ou fundo neutro. Tom quente. Expressão acolhedora, profissional.
+               Formato: JPG ou WebP
+               Arquivo: assets/images/fundadora.jpg -->
+          <div class="about__image">
+            <img src="assets/images/fundadora.jpg"
+                 alt="Jéssica Cavalcante, fundadora da Única Estética, em uniforme profissional"
+                 loading="lazy">
+          </div>
+
+          <div class="about__content">
+            <span class="about__eyebrow">Sobre a clínica</span>
+            <h2 class="about__title">A Única Estética nasceu com uma convicção simples</h2>
+            <div class="about__text">
+              <p>Toda mulher merece ter acesso a tratamentos que realmente funcionam, feitos por quem se importa com o resultado.</p>
+              <p>Desde que abrimos em Aracaju, centenas de mulheres passaram pela clínica — cada uma com uma história, um incômodo e uma razão para estar aqui. Estrias de pós-parto. Manchas que não saíam com nenhum creme. Áreas do corpo que causavam vergonha há anos.</p>
+              <p>E, um a um, esses casos foram tratados, documentados e transformados em confiança de volta.</p>
+              <p>Hoje, a Única Estética é referência em Aracaju — com equipe estável, tecnologia atual e um compromisso que se mantém desde o início: <strong>cuidar de verdade de quem confia em nós.</strong></p>
+            </div>
+            <cite class="about__signature">— Jéssica Cavalcante, fundadora da Única Estética</cite>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== OBJEÇÕES ===================== -->
+    <section class="objections" id="objecoes">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Dúvidas frequentes antes de começar</h2>
+          <p class="section-subtitle">Respostas honestas para quem ainda está avaliando.</p>
+        </div>
+
+        <div class="objections__list fade-up">
+
+          <div class="objection-item">
+            <button class="objection-item__question" aria-expanded="false">
+              <span>É seguro? Pode piorar minha pele?</span>
+              <span class="objection-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="objection-item__answer" hidden>
+              <p>Todos os procedimentos da Única Estética seguem protocolos consolidados ao longo de 7 anos de prática. Antes de qualquer tratamento, fazemos uma avaliação do seu caso — e só indicamos o que é adequado para você. Casos com histórico de sensibilidade ou condição específica são avaliados com atenção redobrada. Em 7 anos de atendimento, nosso histórico fala por si.</p>
+            </div>
+          </div>
+
+          <div class="objection-item">
+            <button class="objection-item__question" aria-expanded="false">
+              <span>Vai doer? Vou conseguir trabalhar depois?</span>
+              <span class="objection-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="objection-item__answer" hidden>
+              <p>Depende do procedimento. O tratamento de estrias tem uma sensação de agulhada no momento — dura poucos minutos e a vermelhidão passa em dias, a depender do organismo. Já o clareamento a laser e o Melasma Control são procedimentos suaves, sem tempo de recuperação. Na avaliação, explicamos exatamente o que esperar de cada um — sem surpresa.</p>
+            </div>
+          </div>
+
+          <div class="objection-item">
+            <button class="objection-item__question" aria-expanded="false">
+              <span>Como saber se funciona para o meu caso antes de pagar?</span>
+              <span class="objection-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="objection-item__answer" hidden>
+              <p>A avaliação é gratuita. Você vem, a gente analisa, e apresenta o tratamento indicado para o seu caso específico — com previsão de resultado. Você só decide se quer continuar depois de entender o que será feito e o que pode esperar. Não tem taxa de avaliação, não tem compromisso de compra.</p>
+            </div>
+          </div>
+
+          <div class="objection-item">
+            <button class="objection-item__question" aria-expanded="false">
+              <span>É caro? Como saber o valor antes de ir?</span>
+              <span class="objection-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="objection-item__answer" hidden>
+              <p>Os valores variam por procedimento e número de sessões necessárias. O clareamento a laser, por exemplo, está por R$130 a sessão. Para os demais tratamentos, o valor é avaliado caso a caso — por isso a avaliação existe. Se quiser uma ideia antes de vir, pode mandar uma foto da área pelo WhatsApp e já te orientamos.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-header fade-up">
+          <h2 class="section-title">Perguntas frequentes</h2>
+        </div>
+
+        <div class="faq__list fade-up">
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Preciso fazer avaliação ou posso já agendar o procedimento direto?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Recomendamos sempre começar pela avaliação — especialmente para Melasma Control, Tratamento de Estrias e Criolipólise. Assim a gente monta o protocolo certo para o seu caso e você não paga por sessões desnecessárias. A avaliação é gratuita.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Quantas sessões vou precisar?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Depende do procedimento e da extensão do problema. Para manchas de melasma, resultado aparece em 12 a 15 dias. Para estrias, 1 sessão já mostra melhora — o número total varia por profundidade e quantidade. Na avaliação, você sai com uma estimativa real para o seu caso.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Onde fica a clínica? Como chego?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>A clínica fica na Av. Augusto Maynard, N84, no bairro São José, em Aracaju/SE. Atendemos de segunda a sábado, por agendamento. Para marcar, é só chamar no WhatsApp (79) 98133-7766.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Posso mandar foto pelo WhatsApp antes de ir à clínica?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Sim — e recomendamos! Para estrias, manchas e áreas de clareamento, uma foto já ajuda a ter uma ideia inicial do tratamento indicado e do investimento aproximado. Manda sem cerimônia.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              O resultado é permanente?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <p>Para procedimentos como Camuflagem de Estrias e Micropigmentação Labial, o resultado é duradouro. Tratamentos como Melasma Control exigem manutenção com protetor solar e, em alguns casos, sessões periódicas — o sol é o maior inimigo do melasma. Na avaliação, explicamos o que esperar de cada protocolo a longo prazo.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Quais formas de pagamento são aceitas?
+              <span class="faq-item__icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-item__answer" hidden>
+              <!-- PLACEHOLDER: confirmar com a clínica as formas de pagamento aceitas (Pix, cartão crédito/débito, parcelamento, dinheiro) e atualizar esta resposta -->
+              <p>Aceitamos Pix e cartão. Para informações sobre parcelamento e condições especiais, entre em contato pelo WhatsApp que informamos todas as opções disponíveis.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA FINAL ===================== -->
+    <section class="cta-final" id="contato">
+      <div class="container cta-final__inner">
+
+        <div class="cta-final__content fade-up">
+          <h2 class="cta-final__headline">
+            Você já sabe o que te incomoda.<br>
+            <em>A gente sabe como tratar.</em>
+          </h2>
+          <p class="cta-final__sub">O próximo passo é mais simples do que parece.</p>
+
+          <a href="https://wa.me/5579981337766?text=Ol%C3%A1%21+Vim+pelo+site+e+gostaria+de+agendar+minha+avalia%C3%A7%C3%A3o+gratuita."
+             class="btn btn--gold btn--lg cta-final__btn"
+             target="_blank" rel="noopener">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Agendar minha avaliação gratuita
+          </a>
+
+          <div class="cta-final__trust">
+            <span><i data-lucide="check" aria-hidden="true"></i> Avaliação 100% gratuita — sem compromisso</span>
+            <span><i data-lucide="message-circle" aria-hidden="true"></i> Respondemos no mesmo dia</span>
+            <span><i data-lucide="calendar" aria-hidden="true"></i> Segunda a Sábado</span>
+          </div>
+        </div>
+
+        <div class="cta-final__info fade-up">
+          <div class="info-block">
+            <i data-lucide="map-pin" aria-hidden="true"></i>
+            <div>
+              <strong>Endereço</strong>
+              <p>Av. Augusto Maynard, 84<br>São José · Aracaju/SE</p>
+            </div>
+          </div>
+          <div class="info-block">
+            <i data-lucide="clock" aria-hidden="true"></i>
+            <div>
+              <strong>Horário de atendimento</strong>
+              <p>Segunda a Sábado<br>Por agendamento</p>
+            </div>
+          </div>
+          <div class="info-block">
+            <i data-lucide="phone" aria-hidden="true"></i>
+            <div>
+              <strong>WhatsApp</strong>
+              <a href="https://wa.me/5579981337766" target="_blank" rel="noopener">(79) 98133-7766</a>
+            </div>
+          </div>
+          <div class="info-block">
+            <i data-lucide="instagram" aria-hidden="true"></i>
+            <div>
+              <strong>Instagram</strong>
+              <a href="https://instagram.com/unicacentroestetico" target="_blank" rel="noopener">@unicacentroestetico</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <!-- ASSET-LOGO: logo-footer
+           Local: coluna esquerda do rodapé
+           Dimensão: altura 36px
+           Formato: SVG ou PNG com fundo transparente
+           Versão: para fundo escuro (dourado + branco)
+           Arquivo: assets/logo/logo-escuro.svg -->
+      <div class="footer__brand">
+        <img src="assets/logo/logo-escuro.png" alt="Única Estética" loading="lazy" class="footer__logo-img">
+        <p>7 anos realizando a beleza que existe em você.</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="#beneficios">Benefícios</a>
+        <a href="#servicos">Tratamentos</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="#contato">Contato</a>
+      </div>
+
+      <div class="footer__contact">
+        <p>Av. Augusto Maynard, 84 · São José · Aracaju/SE</p>
+        <a href="https://wa.me/5579981337766" target="_blank" rel="noopener">(79) 98133-7766</a>
+        <a href="https://instagram.com/unicacentroestetico" target="_blank" rel="noopener">@unicacentroestetico</a>
+      </div>
+
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 Única Estética. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ===================== WHATSAPP FLUTUANTE ===================== -->
+  <a class="whatsapp-float"
+     href="https://wa.me/5579981337766?text=Ol%C3%A1%21+Vim+pelo+site+e+gostaria+de+mais+informa%C3%A7%C3%B5es."
+     target="_blank"
+     rel="noopener"
+     aria-label="Falar no WhatsApp da Única Estética">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whatsapp-float__label">WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
